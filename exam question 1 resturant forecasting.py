@@ -28,3 +28,5 @@ for feature, coef in zip(X.columns, model.coef_):
 X_train_with_const = sm.add_constant(X_train)
 model_sm = sm.OLS(y_train, X_train_with_const).fit()
 print(model_sm.summary())
+
+print('Milwaukee Brewers 2024 World Series Champions')
